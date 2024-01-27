@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+}
+a {
+  text-decoration: none;
+  color: #432818;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+nav {
+  background: transparent;
+  padding: 1rem 1.5rem;
+}
+img {
+  height: 62px;
+}
+.logo {
+  display: flex;
+  width: 50px;
+  justify-content: flex-start;
+  margin: 0rem 0rem -3rem 0rem;
+}
+
+.links a {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  display: block;
+  font-weight: bold;
+  padding: 0.75rem 0;
+  font-family: italic;
+  font-size: 1.3rem;
+}
+.links a:hover {
+  color: #d68c45;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+header {
+  min-height: 15vh;
+  background-color: #f2e9e4;
+}
+.section-1 {
+  padding-bottom: 5rem;
+  background-color: cyan;
+  background-image: url(/images/pexels-toni-cuenca-585752.jpg);
+  background-size: cover;
+  background-position: right 35% bottom 70%;
+  background-repeat: no-repeat;
+}
+.title h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.quotes {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.section-1 p {
+  font-size: 2rem;
+  color: whitesmoke;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  line-height: 1.25;
+  padding: 5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#ashraf {
+  height: 50vh;
+}
+#chauhan-1 {
+  height: 80vh;
+}
+#info {
+  height: 50vh;
+}
+
+.container {
+  display: flex;
+  gap: 40px 80px;
+  margin: 2.5rem;
+  /* margin-right: -4rem; */
+}
+.container img {
+  height: 362px;
+  background-size: cover;
+  box-shadow: 10px 10px 20px black;
+  /* filter: drop-shadow(2px 4px 6px black); */
+}
+.container p {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #d4a373;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-family: cursive;
+}
+span {
+  color: #220901;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-color: wheat; */
+}
+
+.container span :hover {
+  background-color: #f2e9e4;
+  color: #99582a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h3 {
+  background-color: #ffc2d1;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 15px 10px;
+  margin: 0rem 2rem 0rem 1rem;
+  font-family: italic;
+}
+.section-3 {
+  background-color: #fff;
+  display: flex;
+  gap: 20px 40px;
+}
+.services {
+  background-color: white;
+  display: block;
+  padding: 1rem 0rem 0rem 9rem;
+  font-size: 2.5rem;
+  font-family: fantasy;
+}
+.section-3 .content {
+  background-color: #cbc0d3;
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  margin: 3.5rem;
+  padding: 2rem 2rem;
+  line-height: 2rem;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.section-3 .content:hover {
+  background-color: white;
+  border-radius: 10px 50px 30px;
+  color: #99582a;
+  font-family: italic;
+}
+.content p {
+  font-size: 1.2rem;
+  font-family: none;
+  margin: 8px;
+}
+footer {
+  background: #f2e9e4;
+  height: 200px;
+}
+footer p {
+  color: rgb(32, 28, 28);
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
